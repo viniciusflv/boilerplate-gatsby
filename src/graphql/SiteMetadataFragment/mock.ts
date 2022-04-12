@@ -1,7 +1,7 @@
-import * as SiteMetadata from ".";
+import * as SiteMetadata from '.';
 
 beforeEach(() => {
-  jest.spyOn(SiteMetadata, "useSiteMetadata").mockImplementationOnce(() => ({
+  jest.spyOn(SiteMetadata, 'useSiteMetadata').mockImplementationOnce(() => ({
     title: `Boilerplate Gatsby`,
     siteUrl: `https://www.yourdomain.tld`,
     titleTemplate: `%s | Boilerplate`,
@@ -11,9 +11,9 @@ beforeEach(() => {
     author: `Boilerplate`,
     locale: `pt-BR`,
     image: {
-      path: "icons/icon-512x512.png",
-      type: "image/png",
-      size: "512",
+      path: 'icons/icon-512x512.png',
+      type: 'image/png',
+      size: '512',
     },
   }));
 });

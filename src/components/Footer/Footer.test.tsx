@@ -1,9 +1,8 @@
-import { render } from "@testing-library/react";
-import { axe } from "jest-axe";
+import { render } from '@testing-library/react';
+import { axe } from 'jest-axe';
 
-import { Footer } from "./Footer";
-
-import "../../graphql/SiteMetadataFragment/mock";
+import '../../graphql/SiteMetadataFragment/mock';
+import { Footer } from './Footer';
 
 describe(`Footer`, () => {
   it(`should have no SEO violations`, async () => {

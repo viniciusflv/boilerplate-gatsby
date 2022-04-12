@@ -1,9 +1,8 @@
-import { render } from "@testing-library/react";
-import { axe } from "jest-axe";
+import { render } from '@testing-library/react';
+import { axe } from 'jest-axe';
 
-import { Header } from "./Header";
-
-import "../../graphql/SiteMetadataFragment/mock";
+import '../../graphql/SiteMetadataFragment/mock';
+import { Header } from './Header';
 
 describe(`Header`, () => {
   it(`should have no SEO violations`, async () => {

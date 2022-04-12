@@ -1,9 +1,8 @@
-import { render } from "@testing-library/react";
-import { axe } from "jest-axe";
+import { render } from '@testing-library/react';
+import { axe } from 'jest-axe';
 
-import { ErrorFallback } from "./ErrorFallback";
-
-import "../../graphql/SiteMetadataFragment/mock";
+import '../../graphql/SiteMetadataFragment/mock';
+import { ErrorFallback } from './ErrorFallback';
 
 describe(`ErrorFallback`, () => {
   it(`should have no SEO violations`, async () => {

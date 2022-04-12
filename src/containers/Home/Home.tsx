@@ -1,7 +1,6 @@
-import React from "react";
+import { StaticImage } from 'gatsby-plugin-image';
 
-import { StaticImage } from "gatsby-plugin-image";
-import { SEO } from "../SEO";
+import { SEO } from '../SEO';
 
 export function Home() {
   return (
