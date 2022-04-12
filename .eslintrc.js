@@ -42,7 +42,7 @@ module.exports = {
   },
   overrides: [
     {
-      files: ['*.ts', '*.tsx', '*.js'],
+      files: ['*.ts', '*.tsx'],
       rules: {
         '@typescript-eslint/no-var-requires': 'off',
         '@typescript-eslint/ban-ts-comment': 'off',
